@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Center - LK Tech</title>
+    <style>
+        /* Estilos Gerais */
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        /* Cabeçalho */
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        /* Botões */
+        .download-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);
+        }
+
+        .download-btn:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        .download-btn:active {
+            transform: translateY(0);
+        }
+
+        .btn-secondary {
+            background-color: #28a745;
+            box-shadow: 0 4px 6px rgba(40, 167, 69, 0.2);
+        }
+
+        .btn-secondary:hover {
+            background-color: #1e7e34;
+        }
+
+        /* Ícones simples */
+        .icon {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+
+        /* Rodapé */
+        .footer {
+            font-size: 12px;
+            color: #aaa;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="logo">LK Tech</div>
+    <p>Selecione o aplicativo para baixar</p>
+
+    <!-- Botão 01 -->
+    <a href="https://atacadojm01-stack.github.io/appteste/app.apk" class="download-btn">
+        <span class="icon">📲</span> Baixar App Principal
+    </a>
+
+    <!-- Botão 02 -->
+    <a href="#" class="download-btn btn-secondary">
+        <span class="icon">🛠️</span> Configurar App 02
+    </a>
+
+    <div class="footer">
+        © 2026 LK Tech - Assistência Técnica
+    </div>
+</div>
+
+</body>
+</html>
